@@ -9,6 +9,7 @@ const Router = EmberRouter.extend({
 Router.map(function() {
   this.route('picker');
   this.route('checkbox');
+  this.route('component');
 });
 
 export default Router;
