@@ -17,6 +17,12 @@ export default Component.extend({
         checkedItemsSet.add(item);
 				console.log(checkedItemsSet);
       }
-    }
+    },
+		sendingData:function(){
+			console.log("sending data");
+      var checkedItemsSet = this.get('checkedItemsSet');
+			//console.log(checkedItemsSet);
+			this.sendAction("sendingData", 1);
+		}
   }
 });

@@ -8,6 +8,14 @@ export default Route.extend({
       { id: 3, name: 'permission 3' }
       ];
   },
-
+	actions:{
+		receiveData:function(data){
+			console.log("recibiendo data");
+			console.log(data);
+		},
+		tumama:function(){
+			alert("hoola");
+		}
+	}
 
 });

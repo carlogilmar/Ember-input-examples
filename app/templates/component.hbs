@@ -7,7 +7,7 @@
 {{/each}}
 
 <br> Iterando con components
-{{#checkbox-list items=model as |list|}}
+{{#checkbox-list sendingData="receiveData" items=model as |list| }}
   <div class="checkbox">
     <label>
       {{list.checkbox}} {{list.item.name}}
