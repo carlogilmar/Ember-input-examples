@@ -1,1 +1,10 @@
+<h1>Checkbox implementation</h1>
+
+    {{#each model as |item|}}
+      <div {{action "notifyChecked" item on="change"}}>
+      {{input id=item.name type="checkbox" checked=item.checked}}
+      <label>{{item.name}}</label>
+      </div>
+    {{/each}}
+
 {{outlet}}
