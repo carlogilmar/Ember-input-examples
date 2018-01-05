@@ -1,3 +1,17 @@
 <h1>Picker</h1>
 
+<h1>Welcome to {{appName}}</h1>
+<br>
+{{log model.AllCountries}}
+{{#each model.AllCountries as |country|}}
+        <label class="checkbox-inline">{{input type="checkbox" checked=(mut (get country 'isSelected'))}} {{country.name}} </label>
+    {{/each}}
+<br>
+{{#each selectedCountries as |country|}}
+ {{country.name}}
+{{/each}}
+{{outlet}}
+<br>
+<br>
+
 {{outlet}}
