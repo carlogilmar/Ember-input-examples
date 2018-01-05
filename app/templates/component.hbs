@@ -1,0 +1,18 @@
+
+<h1>Component route</h1>
+
+<br>Iterando con hbs
+{{#each model as |permission|}}
+  <br> {{permission.name}}
+{{/each}}
+
+<br> Iterando con components
+{{#checkbox-list items=model as |list|}}
+  <div class="checkbox">
+    <label>
+      {{list.checkbox}} {{list.item.name}}
+    </label>
+  </div>
+{{/checkbox-list}}
+
+{{outlet}}
