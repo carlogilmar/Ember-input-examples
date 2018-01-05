@@ -1,10 +1,13 @@
 <h1>Checkbox implementation</h1>
 
-    {{#each model as |item|}}
-      <div {{action "notifyChecked" item on="change"}}>
-      {{input id=item.name type="checkbox" checked=item.checked}}
-      <label>{{item.name}}</label>
+    {{#each model as |user|}}
+      <div {{action "notifyChecked" user on="change"}}>
+      {{input id=user.username type="checkbox" checked=false}}
+      <label>{{user.username}}</label>
       </div>
     {{/each}}
+
+
+<button {{action 'getList'}}> Ver Lista </button>
 
 {{outlet}}
