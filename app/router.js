@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('picker');
   this.route('checkbox');
   this.route('component');
+  this.route('dropdown');
 });
 
 export default Router;
