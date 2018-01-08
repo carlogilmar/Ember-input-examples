@@ -12,6 +12,7 @@ Router.map(function() {
   this.route('component');
   this.route('dropdown');
   this.route('drop-addon');
+  this.route('ajax');
 });
 
 export default Router;
