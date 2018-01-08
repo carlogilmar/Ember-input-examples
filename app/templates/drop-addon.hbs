@@ -1,0 +1,9 @@
+<h2>Addon for select!</h2>
+
+        {{#x-select value=model action='selectTag'}}
+          {{#each model as |campus|}}
+            {{#x-option value=campus.campusCode}}{{ campus.campusDescription }}{{/x-option}}
+          {{/each}}
+        {{/x-select}}
+
+{{outlet}}

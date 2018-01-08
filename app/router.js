@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('checkbox');
   this.route('component');
   this.route('dropdown');
+  this.route('drop-addon');
 });
 
 export default Router;

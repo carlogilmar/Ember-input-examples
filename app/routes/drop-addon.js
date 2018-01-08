@@ -10,10 +10,8 @@ export default Route.extend({
 					];
   },
   actions: {
-    selectTagType(value) {
+    selectTag(value) {
       console.log(value);
-			var select = this.get('select');
-			console.log(select);
     }
   }
 });
