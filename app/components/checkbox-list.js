@@ -22,7 +22,7 @@ export default Component.extend({
 			console.log("sending data");
       var checkedItemsSet = this.get('checkedItemsSet');
 			//console.log(checkedItemsSet);
-			this.sendAction("sendingData", 1);
+			this.sendAction("sendingData", checkedItemsSet);
 		}
   }
 });
