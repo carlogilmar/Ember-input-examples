@@ -13,6 +13,7 @@ Router.map(function() {
   this.route('dropdown');
   this.route('drop-addon');
   this.route('ajax');
+  this.route('inputs');
 });
 
 export default Router;
