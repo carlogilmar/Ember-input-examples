@@ -1,0 +1,10 @@
+<div>Tag Type from component:
+  <select {{action 'selectTagType' value="target.value"}}>
+    {{#each model as |campus|}}
+      <option value="{{campus.campusCode}}">
+        {{campus.campusDescription}}
+      </option>
+    {{/each}}
+  </select>
+</div>
+{{yield}}

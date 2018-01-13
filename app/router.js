@@ -14,6 +14,7 @@ Router.map(function() {
   this.route('drop-addon');
   this.route('ajax');
   this.route('inputs');
+  this.route('tedselect');
 });
 
 export default Router;

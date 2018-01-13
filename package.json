@@ -37,6 +37,7 @@
     "ember-one-way-controls": "^3.0.1",
     "ember-resolver": "^4.0.0",
     "ember-source": "~2.16.0",
+    "ember-ted-select": "^2.2.2",
     "ember-toastr": "^1.7.0",
     "ember-welcome-page": "^3.0.0",
     "emberx-select": "^3.1.0",

@@ -1,13 +1,5 @@
 <h1>Dropdown route</h1>
 
-<div>Tag Type:
-  <select {{action 'selectTagType' on='change' value="target.value"}} id="select">
-    {{#each model as |campus|}}
-      <option value="{{campus.campusCode}}" selected={{campus}}>
-        {{campus.campusDescription}}
-      </option>
-    {{/each}}
-  </select>
-</div>
+{{dropdown-example model=model}}
 
 {{outlet}}
